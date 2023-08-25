@@ -13,7 +13,7 @@ public class Box <T> {
         this.name = name;
     }
     public static <T>Box<T>method(Box<T>box){
-        System.out.println(box);
+
         return box;
     }
 
